@@ -1,0 +1,33 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BluePay - Kuda</title>
+<style>
+body{font-family:Arial;background:#f5f7fb;margin:0;padding:20px}
+.card{background:white;max-width:400px;margin:20px auto;padding:25px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
+h2{color:#1a3cff;text-align:center}
+.bank-box{background:#eef2ff;padding:15px;border-radius:12px;margin:15px 0;border:1px dashed #1a3cff;text-align:center}
+.label{color:#666;font-size:13px}
+.value{font-size:20px;font-weight:bold;margin:5px 0}
+.btn{background:#1a3cff;color:white;border:none;width:100%;padding:14px;border-radius:10px;font-size:16px;margin-top:15px}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>BluePay</h2>
+<p style="text-align:center">Fund your wallet via transfer</p>
+<div class="bank-box">
+<div class="label">Bank Name</div>
+<div class="value">KUDA</div>
+<div class="label" style="margin-top:12px">Account Number</div>
+<div class="value">7005596257</div>
+<div class="label" style="margin-top:12px">Account Name</div>
+<div class="value">PRINCE</div>
+</div>
+<button class="btn" onclick="navigator.clipboard.writeText('7005596257'); alert('Copied: 7005596257')">Copy Account Number</button>
+</div>
+</body>
+</html>
