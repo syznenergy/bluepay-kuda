@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BluePay LTD 2026 - Buy BPC Code</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;background:#f6f8ff;color:#111}
+.top{background:#0000FF;color:#fff;padding:26px 16px;text-align:center}
+.top h1{margin:0;font-size:22px;letter-spacing:1px}
+.top p{margin:8px 0 0;opacity:.9}
+.wrap{max-width:480px;margin:0 auto;padding:14px}
+.card{background:#fff;border-radius:18px;padding:18px;margin-bottom:14px;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.box{border:2px solid #e5e7eb;border-radius:14px;padding:16px;margin:12px 0}
+.box.hot{border-color:#0000FF;background:#f0f2ff;transform:scale(1.02)}
+.price{font-size:28px;font-weight:800;color:#0000FF;margin:8px 0}
+.bank{background:#eef0ff;border:2px dashed #0000FF;border-radius:14px;padding:18px;text-align:center}
+.acct{font-size:30px;font-weight:900;letter-spacing:1px;margin:6px 0}
+.copy{background:#111;color:#fff;border:0;padding:10px 16px;border-radius:8px;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="top">
+<h1>BLUEPAY LTD 2026</h1>
+<p>Buy Your BPC Code Instantly</p>
+</div>
+<div class="wrap">
+<div class="card">
+<h3>Select Your Package</h3>
+<div class="box">
+<b>Basic Package</b>
+<div class="price">₦8,000</div>
+<p>1 BPC Code - Standard Delivery</p>
+</div>
+<div class="box hot">
+<b>Standard - Most Popular</b>
+<div class="price">₦15,000</div>
+<p>2 BPC Codes - Faster Delivery</p>
+</div>
+<div class="box">
+<b>Premium Package</b>
+<div class="price">₦25,000</div>
+<p>4 BPC Codes - Instant Delivery</p>
+</div>
+<div class="bank">
+<h3>Pay For Your BPC Code</h3>
+<p>Bank: <b>Kuda Bank</b></p>
+<div class="acct">7005596257</div>
+<p>Account Name: <b>PRINCE</b></p>
+<button class="copy" onclick="navigator.clipboard.writeText('7005596257');alert('Copied: 7005596257')">Copy Account Number</button>
+<p style="margin-top:14px;font-size:12px"><b>Important:</b> After paying to 7005596257, save your proof. Your BPC code will be sent once payment is confirmed.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
